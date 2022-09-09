@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/4b3962bf0e.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        /* Slideshow container */
+        .slideshow-container {
+            /* width: 500px; */
+            position: relative;
+            margin-left: 10px;
+            border-radius: 50px;
+            margin-top: 70px;
+            top: 0%;
+            width: 700px;
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin-left: 30px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+
+        }
+
+        .active {
+            background-color: navy;
+        }
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header class="header"><span class="main_name">shopify</span><input class="header_input" type="type"
+            placeholder="search">
+        <i class="fa fa-search" style="font-size:24px;color: navy;"></i>
+
+        <div class="dropdown">
+            <div class="emoji" id="emoji"><i class="fa fa-bars"
+                    style="font-size:36px ;font-weight: 20px;color: navy;"></i>
+            </div>
+            <div class="dropdown-content">
+
+                <a href="#">FAQS</a>
+                <hr>
+                <a href="contact.html">CONTACT US</a>
+                <hr>
+                <a href="about.html">ABOUT US</a>
+                <hr>
+                <a href="#">DELIVERY</a>
+                <hr>
+                <a href="#">COMPLAINTS</a>
+                <hr>
+                <a href="discover.html">DISCOVER</a>
+                <hr>
+                <a href="#">BEST OFFER</a>
+                <hr>
+            </div>
+        </div>
+    </header>
+    <table>
+        <tr>
+            <td>
+                <div class="fixed-menu"><span class="cat">categories</span>
+                    <ul>
+                        <li><a href="shoe.html">shoes</a></li>
+                        <hr>
+                        <li><a href="wrist_watches.html">wrist watches</a></li>
+                        <hr>
+                        <li><a href="suit.html">suits</a></li>
+                        <hr>
+                        <li><a href="handbag.html">handbag</a></li>
+                        <hr>
+                        <li><a href="jewelry.html">jewelries & rings</a></li>
+                        <hr>
+                        <li><a href="gowns.html">gowns</a></li>
+                        <hr>
+                    </ul>
+
+                    <a href="sign up.html"><button class="btn1" id="btn1">sign up</button></a>
+                    <a href="login.html"><button class="btn2">register</button></a>
+
+
+                </div>
+
+
+            </td>
+
+            <td>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img class="slack" src="images/193.webp" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+
+
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img class="slack" src="images/191.webp" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img class="slack" src="images/194.webp" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img class="slack" src="images/193.webp" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+
+                </div>
+
+
+                <div>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                </div>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+                <div class="div-img">
+
+                    <p class="wirting_things">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, id
+                        at excepturi cupiditate odit numquam qui ipsa cumque porro nobis nemo assumenda modi. Numquam
+                        ducimus corrupti repellat quasi fuga illum.</p>
+                    <div class="img_div-img"><img class="imagezs" src="images/190.webp" alt=""><img class="imagezs"
+                            src="images/195.webp" alt=""></div>
+
+                </div>
+            </td>
+        </tr>
+
+    </table>
+    <table>
+
+        <tr>
+
+            <td>
+                <div class="div1">supermarket <a href="images/46.jpg"><img class="imagez" src="images/46.jpg"
+                            alt=""></a><span class="underneath">safari
+                        suits</span><br> price:#55000 <br><strike style="color: red;">#75000</strike><br><span
+                        class="click"><a href="suit.html">click for more </a></span></div>
+            </td>
+            <td>
+                <div class="div1">supermarket<a href="images/15.jpg"><img class="imagez" src="images/15.jpg"
+                            alt=""></a><span class="underneath">engagement
+                        rings💍</span><br> price:#5000 <br><strike style="color: red;">#10000</strike><br><span
+                        class="click"><a href="jewelry.html">click for more</a></span></div>
+            </td>
+            <td>
+                <div class="div1">supermarket<a href="images/42.jpg"><img class="imagez" src="images/42.jpg"
+                            alt=""></a><span class="underneath">😘turkey
+                        gowns</span><br> price:#45000 <br><strike style="color: red;">#50000</strike><br><span
+                        class="click"><a href="gowns.html">click for more</a></span></div>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/90.jpg"><img class="imagez" src="images/90.jpg"
+                            alt=""></a><span class="underneath">best pallazo
+                        collection</span><br> price:#7000 <br><strike style="color: red;">#10500</strike><br><span
+                        class="click"><a href="jackets.html">click for more</a></span>
+            </td>
+            <td>
+
+            </td>
+        </tr>
+
+        <!-- 
+        <div class="line_hr">
+            <marquee behavior="" direction="">our deluxe edition of stocks with up to 50% <strike>price slash</strike>
+            </marquee> -->
+        </div>
+        <tr>
+            <td>
+                <div class="div1">supermarke <a href="images/1.jpg"><img class="imagez" src="images/1.jpg"
+                            alt=""></a><span class="underneath">a bottle of campari
+                    </span><br> price:#15000 <br><strike style="color: red;">#18000</strike><br><span class="click"><a
+                            href="jackets.html">click for more</a></span></di>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/64.jpg"><img class="imagez" src="images/64.jpg"
+                            alt=""></a><span class="underneath">best analogue
+                        rolex watches
+                    </span><br> price:#20000 <br><strike style="color: red;">#30000</strike><br><span class="click"><a
+                            href="wrist_watches.html">click for more</a></span></div>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/11.jpg"><img class="imagez" src="images/11.jpg"
+                            alt=""></a><span class="underneath">air jordan version2.5
+                    </span><br> price:#27000 <br><strike style="color: red;">#40000</strike><br><span class="click"><a
+                            href="shoe.html">click for more</a></span></div>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/77.jpg"><img class="imagez" src="images/77.jpg"
+                            alt=""></a><span class="underneath">best jackets
+                        collection</span><br> price:#8500 <br><strike style="color: red;">#10000</strike><br><span
+                        class="click"><a href="jackets.html">click for more</a></span></div>
+            </td>
+            <!-- <td><embed src="images/52.mp4"></embed></td> -->
+        </tr>
+
+    </table>
+
+
+
+    <table>
+        <tr>
+
+
+
+            <td>
+                <div class="div1">supermarke <a href="images/59.jpg"><img class="imagez" src="images/59.jpg"
+                            alt=""></a><span class="underneath">luxirous bags
+                    </span><br> price:#150000 <br><strike style="color: red;">#220000</strike><br><span class="click"><a
+                            href="handbag.html">click for more</a></span></di>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/67.jpg"><img class="imagez" src="images/67.jpg"
+                            alt=""></a><span class="underneath">best analogue
+                        rolex watches
+                    </span><br> price:#20000 <br><strike style="color: red;">#30000</strike><br><span class="click"><a
+                            href="wrist_watches.html">click for more</a></span></div>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/31.jpg"><img class="imagez" src="images/31.jpg"
+                            alt=""></a><span class="underneath">air jordan version2.7
+                    </span><br> price:#27000 <br><strike style="color: red;">#40000</strike><br><span class="click"><a
+                            href="shoe.html">click for more</a></span></div>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/75.jpg"><img class="imagez" src="images/75.jpg"
+                            alt=""></a><span class="underneath">best jackets
+                        collection</span><br> price:#8500 <br><strike style="color: red;">#10000</strike><br><span
+                        class="click"><a href="gowns.html">click for more</a></span></div>
+            </td>
+
+
+        </tr>
+    </table>
+
+    <!-- <h2 class="promo">summer break get your appliances while stock last</h2> -->
+
+
+    <img class="banner" src="images/192.webp" alt="">
+
+
+
+
+
+    <table>
+        <tr>
+
+
+
+            <td>
+                <div class="div1">supermarke <a href="images/61.jpg"><img class="imagez" src="images/61.jpg"
+                            alt=""></a><span class="underneath">series 7 smart ios
+                    </span><br> price:#150000 <br><strike style="color: red;">#220000</strike><br><span class="click"><a
+                            href="wrist_watches.html">click for more</a></span></di>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/104.jpg"><img class="imagez" src="images/104.jpg"
+                            alt=""></a><span class="underneath">jewelries for first class
+
+                    </span><br> price:#20000 <br><strike style="color: red;">#30000</strike><br><span class="click"><a
+                            href="jewelry.html">click for more</a></span></div>
+            </td>
+
+
+            <td>
+                <div class="div1">supermarket <a href="images/83.jpg"><img class="imagez curtain d-none"
+                            src="images/83.jpg" alt=""></a><span class="underneath">high class handbags
+                    </span><br> price:#27000 <br><strike style="color: red;">#35000</strike><br><span class="click"><a
+                            href="handbag.html">click for more</a></span></div>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/4.jpg"><img class="imagez" src="images/4.jpg"
+                            alt=""></a><span class="underneath">a plate of appetizer
+                    </span><br> price:#700 <br><strike style="color: red;">#1000</strike><br><span class="click"><a
+                            href="jackets.html">click for more</a></span></div>
+            </td>
+
+        </tr>
+        <tr>
+
+
+
+            <td>
+                <div class="div1">supermarke <a href="images/79.jpg"><img class="imagez" src="images/79.jpg"
+                            alt=""></a><span class="underneath">handybags
+                    </span><br> price:#15000 <br><strike style="color: red;">#22000</strike><br><span class="click"><a
+                            href="handbag.html">click for more</a></span></di>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/10.jpg"><img class="imagez" src="images/10.jpg"
+                            alt=""></a><span class="underneath">shoes
+                    </span><br> price:#15000 <br><strike style="color: red;">#20000</strike><br><span class="click"><a
+                            href="shoe.html">click for more</a></span></div>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/94.jpg"><img class="imagez" src="images/94.jpg"
+                            alt=""></a><span class="underneath">purest diamond
+                    </span><br> price:#30000 <br><strike style="color: red;">#40000</strike><br><span class="click"><a
+                            href="jewelry.html">click for more</a></span></div>
+            </td>
+            <td>
+                <div class="div1">supermarket <a href="images/95.jpg"><img class="imagez" src="images/95.jpg"
+                            alt=""></a><span class="underneath">best necklace
+                        collection</span><br> price:#9500 <br><strike style="color: red;">#10000</strike><br><span
+                        class="click"><a href="jewelry.html">click for more</a></span></div>
+            </td>
+
+
+
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="write">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Voluptas, nostrum. Dolor debitis
+            sequi veritatis nesciunt corrubr <br>Lorem ipsum dolor sit amet consectetur adipisicin</div>
+            <div class="location_footer">location:24 zik's avenue <br><br>tel no:+2348129707530</div>
+            <a href="#"><img class="plastore" src="images/134.png" alt=""></a><a href="#"><img class="plastore" src="images/135.png" alt=""></a>
+    </footer>
+    <script src="index.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 6000);
+        }
+    </script>
+
+</body>
+
+</html>
